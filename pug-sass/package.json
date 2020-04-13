@@ -52,7 +52,7 @@
     "entry": {
       "cssExternal": "style**.{scss,sass}",
       "cssEmbed": "embed**.{scss,sass}",
-      "cssModular": false,
+      "cssModular": true,
       "css": {
         "embed": false,
         "external": true
