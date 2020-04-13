@@ -1,0 +1,100 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: "Roboto";
+}
+
+.card-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-wrapper .my-card:nth-child(2) {
+  background-image: url(asset/Image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-wrapper .my-card:nth-child(2) .title-card {
+  color: white;
+}
+.card-wrapper .my-card:nth-child(2) .user-name {
+  color: white;
+}
+.card-wrapper .my-card:nth-child(2) .user-icon {
+  opacity: 0.3;
+}
+.card-wrapper .my-card:nth-child(2) .article-date {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.my-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: fit-content(50px) 15px 15px;
+  grid-gap: 10px;
+
+  margin: 10px;
+  width: 255px;
+  /* height: 150px; */
+  background-color: #fff;
+  box-shadow: 3px 4px 15px -3px rgba(0, 0, 0, 0.75);
+  padding: 23px 25px 20px 19px;
+}
+
+.title-card {
+  grid-column: 1/-1;
+  color: #808080;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 6px;
+  line-height: 30px;
+}
+
+.user-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.user-avatar {
+  grid-row: 2/4;
+}
+
+.user-name__wrapper {
+  grid-column: 2/3;
+  font-size: 13px;
+  font-family: "roboto";
+  color: #b3b3b3;
+}
+
+.user-name__wrapper p {
+  margin: 0;
+}
+
+.user-name {
+  color: #808080;
+  grid-row: 2/3;
+  font-size: 13px;
+}
+
+.article-date,
+.user-name {
+  margin: 0;
+}
+
+.article-date {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.user-icon {
+  grid-column: 3/4;
+  grid-row: 2/4;
+  align-self: center;
+}
