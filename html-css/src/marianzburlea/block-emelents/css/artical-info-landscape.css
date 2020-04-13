@@ -1,0 +1,15 @@
+.landscape__wrapper {
+  width: 540px;
+  height: 150px;
+  box-shadow: 0 2px 6px;
+
+  /* am zis ca-i mai bagam in vena adrenalina */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.landscape__image {
+  background-image: url("../image/cornel-and-marian-success.png");
+  background-size: cover;
+  background-position: center;
+}
