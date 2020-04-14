@@ -22,12 +22,15 @@ body {
 .card-wrapper .my-card:nth-child(2) .title-card {
   color: white;
 }
+
 .card-wrapper .my-card:nth-child(2) .user-name {
   color: white;
 }
+
 .card-wrapper .my-card:nth-child(2) .user-icon {
   opacity: 0.3;
 }
+
 .card-wrapper .my-card:nth-child(2) .article-date {
   color: rgba(255, 255, 255, 0.6);
 }
