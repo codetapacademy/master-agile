@@ -17,10 +17,11 @@
     "email": "marianzburlea@gmail.com"
   },
   "dependencies": {
-    "offline-plugin": "^4.8.0",
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
-    "promise-polyfill": "^6.0.2"
+    "offline-plugin": "^4.8.0",
+    "promise-polyfill": "^6.0.2",
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {
     "poi": "^9.0.0",
