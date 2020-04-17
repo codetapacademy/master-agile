@@ -1,6 +1,13 @@
-import { MarianZburlea, NotFound } from ".";
+import MarianZburlea from "./marianzburlea/marianzburlea.vue";
+import CornelCristianFilip from "./psihedeliq/psihedeliq.vue";
+import Home from "./component/home/home.vue";
 
 export default [
-  { path: "/", component: App, name: "home" },
-  { path: "/marian-zburlea", component: MarianZburlea, name: "Marian Zburlea" }
+  { path: "/", component: Home, name: "Home" },
+  { path: "/marian-zburlea", component: MarianZburlea, name: "Marian Zburlea" },
+  {
+    path: "/cornel-cristian-filip",
+    component: CornelCristianFilip,
+    name: "Cornel Cristian Filip"
+  }
 ];

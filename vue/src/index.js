@@ -1,28 +1,15 @@
 import Vue from "vue";
-import App from "./components/App.vue";
-import Router from "vue-router";
+import App from "./component/App.vue";
+import VueRouter from "vue-router";
+import routes from "./route";
 
-const routes = [
-  { path: "/", component: Home, name: "home" },
-  { path: "/marian-zburlea", component: MarianZburlea, name: "Marian Zburlea" },
-];
+Vue.config.productionTip = false;
+Vue.use(VueRouter);
 
-Vue.use(Router);
-
-const router = new Router({
-  routes,
-});
-
-export const MarianZburlea = {
-  template: "<div>We found MarianZburlea, we did!</div>",
-};
-
-export const Home = {
-  template: "<div>Home!</div>",
-};
+const router = new VueRouter({ mode: "history", routes });
 
 new Vue({
-  el: "#app",
+  // el: "#app",
   router,
-  render: (h) => h(App),
-});
+  render: h => h(App)
+}).$mount("#app");
