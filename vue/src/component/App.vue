@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    Neata cincinel!
-    <p>Neata a doua oara</p>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/marian-zburlea">Marian Zburlea</router-link>
+      <router-link to="/cornel-cristian-filip">Cornel Cristian Filip</router-link>
+    </nav>
+    <hr />
+    <router-view />
   </div>
 </template>
 
