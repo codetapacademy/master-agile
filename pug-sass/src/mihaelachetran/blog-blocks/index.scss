@@ -1,0 +1,38 @@
+html,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-cotainer {
+    background-image: url(/asset/image/mihaelachetran/Image.png);
+    height: 330px;
+}
+
+.images-container2 {
+    background-image: url(/asset/image/mihaelachetran/Image2.png);
+    height: 150px;
+}
+
+.images-cotainer,
+.images-container2 {
+    display: grid;
+    grid-template-columns: 40px 1fr 30px;
+    grid-template-rows: 1fr 46px 20px 20px;
+    grid-gap: 10px;
+    padding: 30px;
+    margin-bottom: 1px;
+    width: 540px;
+    margin: 10px 0;
+}
+
+.images-avatar {
+    background-image: url(/asset/image/mihaelachetran/Avatar.png);
+}
