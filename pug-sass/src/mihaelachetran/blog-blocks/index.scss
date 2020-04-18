@@ -11,18 +11,8 @@ body {
     align-items: center;
 }
 
-.images-cotainer {
-    background-image: url(/asset/image/mihaelachetran/Image.png);
-    height: 330px;
-}
 
-.images-container2 {
-    background-image: url(/asset/image/mihaelachetran/Image2.png);
-    height: 150px;
-}
-
-.images-cotainer,
-.images-container2 {
+.images-container {
     display: grid;
     grid-template-columns: 40px 1fr 30px;
     grid-template-rows: 1fr 46px 20px 20px;
@@ -30,9 +20,37 @@ body {
     padding: 30px;
     margin-bottom: 1px;
     width: 540px;
-    margin: 10px 0;
+    margin: 10px 0 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/asset/image/mihaelachetran/Image.png);
+}
+
+.images-title {
+    grid-column: 2/-1;
+    align-self: end;
+    margin: 0;
+    padding-bottom: 1px;
+}
+
+.images-subtitle {
+    grid-column: 2/-1;
+}
+
+.images-name {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.images-date {
+    grid-row: 4/5;
+    grid-column: 2/3;
 }
 
 .images-avatar {
-    background-image: url(/asset/image/mihaelachetran/Avatar.png);
+    background-size: cover;
+    background-position: center;
+    grid-row: 3/5;
+    width: 40px;
+    height: 40px;
+    background-image: url(/asset/image/mihaelachetran/avatar.png);
 }
