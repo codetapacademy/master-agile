@@ -1,0 +1,106 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  background-color: lightseagreen;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-container,
+.images-container2 {
+  display: grid;
+  grid-template-columns: 40px 1fr 30px;
+  grid-template-rows: 1fr 46px 20px 20px;
+  grid-gap: 10px;
+  padding: 30px;
+  margin-bottom: 1px;
+  width: 540px;
+  margin: 10px 0 10px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.images-container {
+  height: 330px;
+  background-image: url(/asset/image/mihaelachetran/Image.png);
+}
+
+.images-container2 {
+  background-image: url(/asset/image/mihaelachetran/Image2.png);
+  height: 150px;
+}
+
+.images-container2 .images-subtitle {
+  opacity: 0.3;
+}
+
+.images-title,
+.images-subtitle,
+.images-name,
+.images-date,
+.images-icon {
+  color: #FFFFFF;
+}
+
+.images-title {
+  grid-column: 2/-1;
+  margin: 0;
+  padding-bottom: 1px;
+  font-size: 16px;
+  align-self: end;
+}
+
+.images-subtitle {
+  grid-column: 2/-1;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.images-name {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  font-size: 13px;
+}
+
+.images-date {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+.images-avatar {
+  background-image: url(/asset/image/mihaelachetran/avatar.png);
+}
+
+.images-avatar2 {
+  background-image: url(/asset/image/mihaelachetran/avatar2.png);
+}
+
+.images-avatar, 
+.images-avatar2 {
+  background-size: cover;
+  background-position: center;
+  grid-row: 3/5;
+  width: 40px;
+  height: 40px;
+}
+
+.images-icon {
+  background-image: url(/asset/image/mihaelachetran/bookmark.png);
+  grid-row: 3/5;
+  grid-column: 3/4;
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  opacity: 0.6;
+}
