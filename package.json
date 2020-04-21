@@ -54,7 +54,7 @@
       "cssEmbed": "embed**.{scss,sass}",
       "cssModular": true,
       "css": {
-        "embed": false,
+        "embed": true,
         "external": true
       }
     },
