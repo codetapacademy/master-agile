@@ -1,8 +1,13 @@
 import React from "react";
+import { BlockOne } from "./component/block-one/block-one.component";
+import { BlockTwo } from "./component/block-two/block-two.component";
 
 const MihaelaChetran = () => {
     return (
-        <h1>First time with React</h1>
+        <>
+            <BlockOne/>
+            <BlockTwo/>
+        </>
     )
 }
 export { MihaelaChetran };
