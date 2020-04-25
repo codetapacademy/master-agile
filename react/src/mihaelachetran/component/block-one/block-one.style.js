@@ -7,6 +7,10 @@ export const StyledMainBox = styled.div`
     align-items:center;
 `
 
+// export const StyledImage = styled.div`
+//     background-size: cover;
+// `
+
 export const StyledImagesContainer = styled.div`
     display: grid;
     grid-template-columns: 40px 1fr 40px;
@@ -17,10 +21,10 @@ export const StyledImagesContainer = styled.div`
     margin: 10px 0;
     background-size: cover;
     background-position: center;
-    background-color:turquoise;
+    background-color: #0d886b;
     width: 540px;
     height: 330px;
-    background-image: url(../Image.png);
+    // background-image: url(https://picsum.photos/200/300);
 `
 
 export const StyledImagesTitle = styled.div`
@@ -32,7 +36,7 @@ export const StyledImagesTitle = styled.div`
     align-self: end;
 `
 export const StyledImagesSubtitle = styled.div`
-    color: black;
+    color: white;
     grid-row: 2/3;
     grid-column: 2/4;
     color: white;
@@ -40,7 +44,7 @@ export const StyledImagesSubtitle = styled.div`
 `
 
 export const StyledImageAvatar = styled.div`
-    // background-color: black;
+    background-color: white;
 `
 
 export const StyledImageName = styled.div`
@@ -58,6 +62,6 @@ export const StyledImageDate = styled.div`
 export const StyledImageIcon = styled.div`
     width: 30px;
     height: 30px;
-    colour: black;
+    colour: white;
 `
 
