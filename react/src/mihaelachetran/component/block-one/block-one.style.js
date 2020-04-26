@@ -1,4 +1,7 @@
 import styled from "styled-components" 
+import BackgroundOne from "../../asset/Image.png"
+import BlockOneAvatar from "../../asset/Avatar.png"
+import BlockOneIcon from "../../asset/ic_bookmark.png"
 
 
 export const StyledMainBox = styled.div`
@@ -6,10 +9,6 @@ export const StyledMainBox = styled.div`
     flex-direction: column;
     align-items:center;
 `
-
-// export const StyledImage = styled.div`
-//     background-size: cover;
-// `
 
 export const StyledImagesContainer = styled.div`
     display: grid;
@@ -21,30 +20,40 @@ export const StyledImagesContainer = styled.div`
     margin: 10px 0;
     background-size: cover;
     background-position: center;
-    background-color: #0d886b;
     width: 540px;
     height: 330px;
-    // background-image: url(https://picsum.photos/200/300);
+    background-image: url(${BackgroundOne});
+`
+export const StyledDivImage = styled.div`
+    grid-column: 1/-1;
+    grid-row: 1/5; 
 `
 
-export const StyledImagesTitle = styled.div`
-    color: black;
-    grid-column:2/4;
-    // grid-row: 1/1;
+export const StyledImagesTitle = styled.h1`
     color: white;
-    // margin-bottom: 1px;
+    grid-column:1/-1;
+    grid-row: 1/2;
     align-self: end;
+    margin: 0;
+    margin-bottom: 1px;
+    font-size: 16px;
 `
-export const StyledImagesSubtitle = styled.div`
+export const StyledImagesSubtitle = styled.p`
     color: white;
     grid-row: 2/3;
-    grid-column: 2/4;
+    grid-column: 1/-1;
     color: white;
     // margin-top: 1px;
+    margin: 0;
 `
 
 export const StyledImageAvatar = styled.div`
-    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: url(${BlockOneAvatar});
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 `
 
 export const StyledImageName = styled.div`
@@ -62,6 +71,7 @@ export const StyledImageDate = styled.div`
 export const StyledImageIcon = styled.div`
     width: 30px;
     height: 30px;
-    colour: white;
+    background-image: url(${BlockOneIcon});
+    opacity: 0.3;
 `
 
