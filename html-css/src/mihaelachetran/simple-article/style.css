@@ -1,0 +1,118 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  background-image: linear-gradient(turquoise, whitesmoke);
+}
+
+.main-box {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.article-wrapper {
+  background-image: url(../../mihaelachetran/simple-article/assets/image.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.article-wrapper2 {
+  background-color: #FFFFFF;
+}
+
+.article-wrapper,
+.article-wrapper2 {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  grid-template-rows: 1fr 15px 15px;
+  grid-gap: 10px;
+  margin: 10px;
+  padding: 23px 25px 23px 20px;
+  width: 255px;
+  box-shadow: 10px 10px 10px cadetblue;
+}
+
+.article-title {
+  color: white;
+}
+
+.article-title2 {
+  color: #808080;
+}
+
+.article-title,
+.article-title2 {
+  font-size: 16px;
+  line-height: 30px;
+  grid-column: 1/-1;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+.article-name {
+  color: white;
+}
+
+.article-name2 {
+  color: #808080;
+}
+
+.article-name,
+.article-name2 {
+  font-size: 13px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-left: 5px;
+}
+
+.article-date {
+  opacity: 0.6;
+  color: white;
+}
+
+.article-date2 {
+  color:#B3B3B3;
+}
+
+.article-date,
+.article-date2 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.article-avatar {
+  background-image: url(../../mihaelachetran/simple-article/assets/Avatar\ 2.png);
+}
+
+.article-avatar2 {
+  background-image: url(../../mihaelachetran/simple-article/assets/Avatar.png);
+}
+
+.article-avatar,
+.article-avatar2 {
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  grid-row: 2/4;
+}
+
+.article-icon {
+  opacity: 0.3;
+}
+
+.article-icon,
+.article-icon2 {
+  width: 30px;
+  height: 30px;
+  grid-row: 2/4;
+  grid-column: 3/4;
+  color: white;
+  background-position: center;
+  background-image: url(../../mihaelachetran/simple-article/assets/ic_bookmark.png);
+}
