@@ -1,0 +1,25 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+
+.card-wrapper {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+}
+
+.articles-wrapper {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  grid-template-rows: 50px 15px 15px;
+  grid-gap: 10px;
+  margin: 10px;
+}
+
+.articles-title {
+  grid-column: 1/-1;
+}
