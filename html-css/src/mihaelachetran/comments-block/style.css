@@ -5,3 +5,48 @@ body {
   padding: 0;
   background-color: hotpink;
 }
+
+.block-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.comments-box1 {
+  background-color: #FFFFFF;
+  display: flex;
+  width: 540px;
+  height: 150px;
+}
+
+.text-wrapper1 {
+  /* display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  grid-template-rows: 50px 15px 15px;
+  grid-gap: 10px; */
+  margin: 10px;
+  padding: 23px 25px 20px 10px;
+}
+
+img {
+  width: 190px;
+  height: 150px;
+}
+
+.comments-title {
+  font-size: 16px;
+}
+
+.comments-avatar {
+  background-image: url(asset/Avatar.png);
+  width: 40px;
+  height: 40px;
+}
+
+.comments-icon {
+  background-image: url(asset/ic_bookmark.png);
+  color: #FFFFFF;
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
