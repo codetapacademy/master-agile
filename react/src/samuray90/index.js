@@ -1,0 +1,1 @@
+export { IonutDaniel } from "./samuray90.component";

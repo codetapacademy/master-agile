@@ -1,4 +1,5 @@
 node_modules
+<<<<<<< HEAD
 tmp
 build*
 npm-debug.log*
@@ -6,3 +7,5 @@ package-lock.json
 .vscode
 .publish
 .pnp*
+=======
+>>>>>>> 172d21726553cefd9b7c2f230fa6308dc2922598
