@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(121, 187, 121);
+}
+
+.article-wrapper {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.card1 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 15px 15px;
+    grid-template-columns: 40px 60px 1fr 40px;
+    background-image: url(/asset/image/samuray90/backgroundcard.png);
+    background-position: center;
+    background-size: cover;
+    width: 540px;
+    height: 150px;
+}
