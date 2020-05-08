@@ -1,25 +1,69 @@
 html,
 body {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    background-color: rgb(121, 187, 121);
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: 'Roboto';
 }
 
 .article-wrapper {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 .card1 {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-rows: 1fr 1fr 15px 15px;
-    grid-template-columns: 40px 60px 1fr 40px;
-    background-image: url(/asset/image/samuray90/backgroundcard.png);
-    background-position: center;
-    background-size: cover;
-    width: 540px;
-    height: 150px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 40px 1fr 15px 1fr;
+  grid-template-columns: 40px 60px 1fr 40px;
+  background-image: url(/asset/image/samuray90/backgroundcard.png);
+  background-position: center;
+  background-size: cover;
+  width: 540px;
+  height: 150px;
+}
+
+.avatar2 {
+  background-image: url(/asset/image/samuray90/Avatar.png);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
+
+.main-title {
+  grid-column: 1/-1;
+  font-size: medium;
+  align-self: center;
+  padding-top: 21px;
+  margin-left: 20px;
+  margin-right: 150px;
+  color :#FFFFFF;
+  height: 16px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  grid-column: 2/3;
+  align-self: center;
+  margin-top: 8px;
+}
+
+.name {
+  color: white;
+  font-size: medium;
+  font-size: 13px;
+  padding-top: 24px;
+  padding-left: 56px;
+}
+
+.age {
+  font-size: 12px;
+  color:rgba(255, 255, 255, 0.6);
+  padding-top: 5px;
+  padding-left: 56px;
 }
