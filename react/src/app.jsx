@@ -4,6 +4,7 @@ import { MarianZburlea } from "./marianzburlea";
 import { StyledLink, StyledNav } from "./app.style";
 import { CornelCrisitanFilip } from "./psyhedeliq";
 import { IonutDaniel } from "./samuray90";
+import { MihaelaChetran } from "./mihaelachetran";
 
 const App = () => {
   return (
@@ -14,11 +15,15 @@ const App = () => {
         <StyledLink to="/cornel-cristian-filip">
           Cornel Cristian Filip
         </StyledLink>
+        <StyledLink to="/mihaela-chetran">
+          Mihaela Chetran
+        </StyledLink>
       </StyledNav>
       <Router>
         <MarianZburlea path="/marianzburlea" />
         <CornelCrisitanFilip path="/cornel-cristian-filip" />
         <IonutDaniel path="/samuray90" />
+        <MihaelaChetran path="/mihaela-chetran" />
       </Router>
     </div>
   );

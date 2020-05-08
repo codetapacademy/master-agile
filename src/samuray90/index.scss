@@ -1,0 +1,131 @@
+.background {
+    color: beige;
+}
+
+.badge.child__one {
+    text-align: center;
+    padding: 5%;
+    color: rgb(3, 64, 88);
+    height: 23px;
+    border: tomato solid 3px;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 700;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    // fill-opacity: rgb(79, 79, 192);
+}
+
+.description-box__with-shadow2 {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.description-box__with-shadow1 {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.badge.child__smelly {
+    margin-top: 25px;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    text-align: center;
+    color: white;
+    height: 23px;
+    border: rgb(41, 34, 33) solid 3px;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    font-weight: 700;
+    background-color: rgb(240, 240, 38);
+    font-family: sans-serif;
+}
+
+.badge.child__ugly {
+    margin: 9%;
+    color: rgb(255, 255, 255);
+    background: violet;
+    height: 25px;
+    width: fit-content;
+    border: rgb(110, 216, 216) solid 3px;
+    padding-top: 5px;
+    border-radius: 11px;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.child__list {
+    list-style: none;
+    margin: 5%;
+    display: grid;
+}
+
+
+.badge.child__three {
+    justify-content: center;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    border-radius: 38px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    position: relative;
+    font-style: oblique;
+    font-weight: bolder;
+    background-color: rgba(255, 143, 6, 0.527);
+}
+
+.badge.child__two {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: rgb(211, 56, 82);
+    background-color: darkseagreen;
+    margin: 20px;
+    height: 25px;
+    width: fit-content;
+    padding-top: 10px;
+    border-radius: 45%;
+    font-weight: 500;
+    font-family: sans-serif;
+    border-bottom: solid;
+}
+
+.badge.child__four {
+    font-family: monospace;
+    background-color: cornflowerblue;
+    color: yellow;
+    border-bottom: solid;
+    text-align: center;
+    padding: 5%;
+    height: 23px;
+    border: rgb(54, 202, 212) solid 3px;
+    border-radius: 45px;
+    position: relative;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.footer {
+    box-shadow: grey 20px;
+}
+
+.badge.child__six {
+    background: paleturquoise;
+    padding: 1%;
+    color: #58a70e;
+    height: 23px;
+    border: #ae97dd solid 3px;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 700;
+    margin: 8px;
+    text-align: center;
+}
