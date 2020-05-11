@@ -1,0 +1,9 @@
+.block-one {
+  background-image: url(/asset/image/bogdan-negura/image.png);
+  justify-content: flex-end;
+  height: 330px;
+
+  & .block-avatar {
+    background-image: url(/asset/image/bogdan-negura/avatar.png);
+  }
+}
