@@ -1,0 +1,1 @@
+export { MihaelaChetran } from "./mihaela-chetran.component"
