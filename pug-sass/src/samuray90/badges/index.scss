@@ -1,0 +1,315 @@
+ul {
+    list-style-type: none;
+    place-items: flex-end;
+    margin: 0;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+li {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.flexb,
+.flexc,
+.flexd {
+    width: 65px;
+    text-align: center;
+}
+
+.flexb {
+    background-color: #0078FF;
+    text-align: center;
+    color: white;
+}
+
+.flexa {
+    border-radius: 24px;
+    background-color: #0078FF;
+    color: white;
+    width: 65px;
+    text-align: center;
+}
+
+.flexb {
+    border-radius: 5px;
+    color: white;
+    background-color: #0078FF;
+}
+
+.flexc {
+    border-radius: 2.5px;
+    color: white;
+    background-color: #0078FF;
+}
+
+.flexd {
+    background-color: #0078FF;
+    color: white;
+}
+
+.flexe {
+    border-radius: 24px;
+    margin-left: 30px;
+}
+
+.flexe,
+.flexf,
+.flexg,
+.flexh {
+    border: solid 2px #0078FF;
+    color: #0078FF;
+    width: 65px;
+    text-align: center;
+}
+
+.flexf {
+    border-radius: 5px;
+}
+
+.flexg {
+    border-radius: 2.5px;
+}
+
+.flexi {
+    width: 65px;
+    margin-left: 30px;
+}
+
+.flexj {
+    padding: 4px;
+    width: 65px;
+}
+
+.flexk {
+    padding: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 35px;
+}
+
+.flexi,
+.flexj,
+.flexk {
+    border-radius: 24px;
+    color: white;
+    text-align: center;
+    background-color: #0078FF;
+}
+
+.flex1,
+.flex2,
+.flex3,
+.flex4,
+.flex5,
+.flex6,
+.flex7,
+.flex8,
+.flex9,
+.flex10,
+.flex11 {
+    width: 65px;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    align-self: left;
+}
+
+.flex1 {
+    background-color: #0078FF;
+    color: white;
+}
+
+.flex2 {
+    background-color: #F39C13;
+}
+
+.flex3 {
+    background-color: #5A51DE;
+}
+
+.flex4 {
+    background-color: #00CAFF;
+}
+
+.flex5 {
+    background-color:#FF004F;
+}
+
+.flex6 {
+    background-color:#1ACEB3;
+}
+
+.flex7 {
+    background-color:#F1C50F;
+}
+
+.flex8 {
+    background-color: #9B59B6;
+}
+
+.flex9 {
+    background-color: #E74C3C;
+}
+
+.flex10 {
+    background-color: #C67C3B;
+}
+
+.flex11 {
+    background-color: #2CCC71;
+}
+
+.flex12,
+.flex13,
+.flex14,
+.flex15,
+.flex16,
+.flex17,
+.flex18,
+.flex19,
+.flex20,
+.flex21,
+.flex22 {
+    width: 65px;
+    text-align: center;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.flex12 {
+    border: solid 2px #0078FF;
+    color: #0078FF;
+}
+
+.flex13 {
+    border: solid 2px#F39C13;
+    color: #F39C13;
+}
+
+.flex14 {
+    border: solid 2px #5A51DE ;
+    color: #5A51DE;
+}
+
+.flex15 {
+    border: solid 2px  #00CAFF ;
+    color:  #00CAFF;
+}
+
+.flex16 {
+    border: solid 2px #FF004F;
+    color: #FF004F;
+}
+
+.flex17 {
+    border: solid 2px #1ACEB3;
+    color: #1ACEB3;
+}
+
+.flex18 {
+    border: solid 2px  #F1C50F ;
+    color: #F1C50F;  
+}
+
+.flex19 {
+    border: solid 2px #9B59B6 ;
+    color: #9B59B6;
+}
+
+.flex20 {
+    border: solid 2px #E74C3C;
+    color: #E74C3C;
+}
+
+.flex21 {
+    border: solid 2px  #C67C3B ;
+    color: #C67C3B;
+}
+
+.flex22 {
+    border: solid 2px #2CCC71 ;
+    color: #2CCC71;
+}
+
+.flex23,
+.flex24,
+.flex25,
+.flex26,
+.flex27,
+.flex28,
+.flex29,
+.flex30,
+.flex31,
+.flex32,
+.flex33 {
+    width: 65px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.flex23 {
+    background-color: rgba(0, 120, 255, 0.20);
+    color: #0078FF;
+}
+
+.flex24 {
+    background-color: rgba(243, 156, 19, 0.20);
+    color: #F39C13;
+}
+
+.flex25 {
+    background-color: rgba(90, 81, 222, 0.20);
+    color: #5A51DE;
+}
+
+.flex26 {
+    background-color: rgba(0, 202, 255, 0.20);
+    color: #00CAFF;
+}
+
+.flex27 {
+    background-color: rgba(255, 0, 79, 0.20);
+    color :#FF004F;
+}
+
+.flex28 {
+    background-color: rgba(26, 206, 179, 0.20);
+    color:  #1ACEB3;
+}
+
+.flex29 {
+    background-color: rgba(241, 197, 15, 0.20);
+    color:#F1C50F;
+}
+
+.flex30 {
+    background-color: rgba(155, 89, 182, 0.20);
+    color: #9B59B6;
+}
+
+.flex31 {
+    color: #E74C3C;
+    background-color: rgba(231, 76, 60, 0.20);
+}
+
+.flex32 {
+    background-color:rgba(198, 124, 59, 0.20);
+    color: #C67C3B;
+}
+
+.flex33 {
+    background-color: rgba(44, 204, 113, 0.20);
+    color: rgb(44, 204, 113);
+}
