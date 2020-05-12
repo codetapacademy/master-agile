@@ -110,12 +110,12 @@ export const StyledArticlesDate2 = styled.div`
 `
 
 export const StyledArticlesAvatar2 = styled.div`
-background-position: center;
-grid-column: 1/2;
-grid-row: 2/4;
-height: 40px;
-width: 40px;
-background-image: url(${Avatar2});
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  height: 40px;
+  width: 40px;
+  background-image: url(${Avatar2});
 `
 
 export const StyledArticlesIcon2 = styled.div`
