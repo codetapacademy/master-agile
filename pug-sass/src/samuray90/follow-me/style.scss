@@ -3,13 +3,15 @@ body {
   margin: 0;
   padding:0;
   box-sizing: border-box;
-  background-color: white;
+  background-color: rgb(245, 235, 235);
   font-family: 'Roboto';
 }
 
-.article-wrapper {
+.article-wrapper,
+.second-guy {
   display: flex;
   margin-top: 40px;
+  margin-bottom: 40px;
   justify-content: center;
 }
 
@@ -66,4 +68,51 @@ body {
   color:rgba(255, 255, 255, 0.6);
   padding-top: 5px;
   padding-left: 56px;
+}
+
+.spok {
+  background-image: url(/asset/image/samuray90/ic_bookmark.png);
+  background-position: right;
+  width: 23px;
+  height: 20px;
+  grid-row: 4/5;
+  grid-column: 4/5;
+  margin-bottom: 20px;
+}
+
+
+.guy1 {
+  display: grid;
+  grid-template-rows: 40px 1fr 15px 1fr;
+  grid-template-columns: 40px 60px 1fr 40px;
+  grid-gap: 10px;
+  background-position: center;
+  background-size: cover;
+  width: 540px;
+  height: 120px;
+  justify-content: center;
+  background-color: white;
+}
+
+.picture1 {
+  display: grid;
+  grid-gap: 10px;
+  background-image: url(/asset/image/samuray90/34m.png);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: -19px;
+}
+
+.button {
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  border-radius: 45%;
+  border: solid 2px gray;
+  width: 90px;
+  height: 40px;
 }
