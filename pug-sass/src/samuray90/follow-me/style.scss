@@ -8,7 +8,9 @@ body {
 }
 
 .article-wrapper,
-.second-guy {
+.second-guy,
+.girl,
+.last {
   display: flex;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -82,7 +84,8 @@ body {
 
 
 .guy1,
-.girl {
+.girl1,
+.last1 {
   display: grid;
   grid-template-rows: 40px 1fr 5px 1fr;
   grid-template-columns: 40px 60px 1fr 40px;
@@ -93,6 +96,33 @@ body {
   height: 120px;
   justify-content: center;
   background-color: white;
+}
+
+.picture2 {
+  background-image: url(/asset/image/samuray90/serghey.jpg);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: -19px;
+  display: grid;
+  grid-gap: 10px;
+  border-radius: 45px;
+}
+
+.picture3 {
+  background-image: url(/asset/image/samuray90/Avatar.jpg);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: -19px;
+  display: grid;
+  grid-gap: 10px;
 }
 
 .picture1 {
@@ -129,7 +159,8 @@ body {
 }
 
 .main-title1,
-.main-title2 {
+.main-title2,
+.main-title3 {
   display: grid;
   font-size: 14px;
   font-weight: medium;
