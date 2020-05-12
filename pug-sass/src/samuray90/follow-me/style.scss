@@ -1,0 +1,198 @@
+html,
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: rgb(221, 209, 209);
+  font-family: 'Roboto';
+}
+
+.article-wrapper,
+.second-guy,
+.girl,
+.last {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.card1 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 40px 1fr 15px 1fr;
+  grid-template-columns: 40px 60px 1fr 40px;
+  background-image: url(/asset/image/samuray90/backgroundcard.png);
+  background-position: center;
+  background-size: cover;
+  width: 540px;
+  height: 150px;
+}
+
+.avatar2 {
+  background-image: url(/asset/image/samuray90/Avatar1.png);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
+
+.main-title {
+  grid-column: 1/-1;
+  font-size: medium;
+  align-self: center;
+  padding-top: 21px;
+  margin-left: 20px;
+  margin-right: 150px;
+  color :#FFFFFF;
+  height: 16px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  grid-column: 2/3;
+  align-self: center;
+  margin-top: 8px;
+}
+
+.name {
+  color: white;
+  font-size: medium;
+  font-size: 13px;
+  padding-top: 24px;
+  padding-left: 56px;
+}
+
+.age {
+  font-size: 12px;
+  color:rgba(255, 255, 255, 0.6);
+  padding-top: 5px;
+  padding-left: 56px;
+}
+
+.spok {
+  background-image: url(/asset/image/samuray90/ic_bookmark.png);
+  background-position: right;
+  width: 23px;
+  height: 20px;
+  grid-row: 4/5;
+  grid-column: 4/5;
+  margin-bottom: 20px;
+}
+
+
+.guy1,
+.girl1,
+.last1 {
+  display: grid;
+  grid-template-rows: 40px 1fr 5px 1fr;
+  grid-template-columns: 40px 60px 1fr 40px;
+  grid-gap: 10px;
+  background-position: center;
+  background-size: cover;
+  width: 540px;
+  height: 120px;
+  justify-content: center;
+  background-color: white;
+}
+
+.picture2 {
+  background-image: url(/asset/image/samuray90/04w.png);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: -19px;
+  display: grid;
+  grid-gap: 10px;
+  border-radius: 45px;
+}
+
+.picture3 {
+  background-image: url(/asset/image/samuray90/Avatar.png);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: -19px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.picture1 {
+  display: grid;
+  grid-gap: 10px;
+  background-image: url(/asset/image/samuray90/34m.png);
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 60px;
+  width: 60px;
+  margin-left: 35px;
+  margin-top: -19px;
+}
+
+.button {
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 4/5;
+  height: 40px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: solid 2px#F0F0F0;
+  border-radius: 25px;
+  color: #999999;
+  background-color: white;
+  padding: 10px 22px;
+  display: inline-flex;
+  font-size: 15px;
+  width: 90px;
+  text-align: center;
+  margin-left: -84px;
+  margin-top: -8px;
+}
+
+.main-title1,
+.main-title2,
+.main-title3 {
+  display: grid;
+  font-size: 14px;
+  font-weight: medium;
+  color:#808080;
+  grid-row: 1/2;
+  grid-column: 3/3;
+  font-size: medium;
+  align-self: center;
+  padding-top: 85px;
+  grid-gap: 10px;
+}
+
+.span_4 {
+  color:#B3B3B3;
+  font-size: 13px;
+}
+
+.span_2 {
+  color: #B3B3B3;
+  font-size: 13px;
+}
+
+
+.span_2,
+.span_3,
+.span_4 {
+  margin-left: 10px;
+}
+
+.span_2,
+.span_3,
+.span_4,
+.span_1 {
+  font-family: 'Roboto';
+}
