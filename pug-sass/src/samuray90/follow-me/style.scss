@@ -81,9 +81,10 @@ body {
 }
 
 
-.guy1 {
+.guy1,
+.girl {
   display: grid;
-  grid-template-rows: 40px 1fr 15px 1fr;
+  grid-template-rows: 40px 1fr 5px 1fr;
   grid-template-columns: 40px 60px 1fr 40px;
   grid-gap: 10px;
   background-position: center;
@@ -110,9 +111,57 @@ body {
 .button {
   display: grid;
   grid-row: 2/3;
-  grid-column: 3/4;
-  border-radius: 45%;
-  border: solid 2px gray;
-  width: 90px;
+  grid-column: 4/5;
   height: 40px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: solid 2px#F0F0F0;
+  border-radius: 25px;
+  color: #999999;
+  background-color: white;
+  padding: 10px 22px;
+  display: inline-flex;
+  font-size: 15px;
+  width: 90px;
+  text-align: center;
+  margin-left: -84px;
+  margin-top: -8px;
+}
+
+.main-title1,
+.main-title2 {
+  display: grid;
+  font-size: 14px;
+  font-weight: medium;
+  color:#808080;
+  grid-row: 1/2;
+  grid-column: 3/3;
+  font-size: medium;
+  align-self: center;
+  padding-top: 85px;
+  grid-gap: 10px;
+}
+
+.span_4 {
+  color:#B3B3B3;
+  font-size: 13px;
+}
+
+.span_2 {
+  color: #B3B3B3;
+  font-size: 13px;
+}
+
+
+.span_2,
+.span_3,
+.span_4 {
+  margin-left: 10px;
+}
+
+.span_2,
+.span_3,
+.span_4,
+.span_1 {
+  font-family: 'Roboto';
 }
