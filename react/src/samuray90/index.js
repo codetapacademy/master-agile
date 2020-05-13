@@ -1,0 +1,1 @@
+export { IonutDaniel } from "./ionut-daniel.component";

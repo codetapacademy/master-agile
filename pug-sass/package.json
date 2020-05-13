@@ -18,7 +18,7 @@
   },
   "//": "CUSTOM CONFIGURATION",
   "installConfig": {
-    "pnp": true
+    "pnp": false
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.academy",
