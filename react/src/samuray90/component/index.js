@@ -1,1 +1,1 @@
-export { SimpleArticle } from "./simple-article.component"
+export { SimpleArticle } from "./simple-article.component";
