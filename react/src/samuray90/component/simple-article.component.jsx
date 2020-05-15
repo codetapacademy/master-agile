@@ -1,6 +1,14 @@
 import React from "react";
-import { StyledBlock, StyledPicture, StyledTitle, StyledImageAvatar } from "./simple-article.style";
+import { StyledBlock, StyledPicture, StyledTitle, StyledImageAvatar, StyledMiniTitle, StyledMiniDate, StyledMiniBookmark, StyledSecondBlock } from "./simple-article.style";
 
+const SecondArticle = () => {
+  return (
+    <>
+      <StyledSecondBlock>
+      </StyledSecondBlock>
+    </>
+  )
+}
 
 const SimpleArticle = () => {
   return (
@@ -9,6 +17,9 @@ const SimpleArticle = () => {
         <StyledPicture>
           <StyledTitle> The Idea Of God Is Not
           Henceforth Relevant </StyledTitle>
+          <StyledMiniTitle>Elmer Adkins</StyledMiniTitle>
+          <StyledMiniDate>June 22</StyledMiniDate>
+          <StyledMiniBookmark></StyledMiniBookmark>
           <StyledImageAvatar></StyledImageAvatar>
         </StyledPicture>
       </StyledBlock>
@@ -16,4 +27,6 @@ const SimpleArticle = () => {
   )
 }
 
+
 export { SimpleArticle }
+export { SecondArticle }
