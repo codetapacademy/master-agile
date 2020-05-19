@@ -1,0 +1,18 @@
+.block-two {
+  background-image: url(/asset/image/bogdan-negura/image2.png);
+  justify-content: flex-start;
+  height: 150px;
+
+  & .block-avatar {
+    background-image: url(/asset/image/bogdan-negura/avatar2.png);
+  }
+
+  & .block-name {
+    color: white;
+    opacity: 0.6;
+  }
+
+  & .block-date {
+    opacity: 0.3;
+  }
+}
