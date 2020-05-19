@@ -22,7 +22,7 @@
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.academy",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "githubUrl": "http://github.com/BogdanNegura/master-agile.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
