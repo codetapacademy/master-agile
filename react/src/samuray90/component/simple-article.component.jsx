@@ -1,10 +1,18 @@
 import React from "react";
-import { StyledBlock, StyledPicture, StyledTitle, StyledImageAvatar, StyledMiniTitle, StyledMiniDate, StyledMiniBookmark, StyledSecondBlock } from "./simple-article.style";
+import { StyledBlock, StyledPicture, StyledTitle, StyledImageAvatar, StyledMiniTitle, StyledMiniDate, StyledMiniBookmark, StyledSecondBlock, StyledBackGround, StyleSecondTile, StyledSecondPicture, StyledElSecundo, StyledEdad, StyledSpok } from "./simple-article.style";
 
 const SecondArticle = () => {
   return (
     <>
       <StyledSecondBlock>
+        <StyledBackGround>
+          <StyleSecondTile>Effective Forms Advertising 
+          Internet Web Site</StyleSecondTile>
+          <StyledSecondPicture></StyledSecondPicture>
+          <StyledElSecundo>Randall Erickson</StyledElSecundo>
+          <StyledEdad>Jun 21</StyledEdad>
+          <StyledSpok></StyledSpok>
+          </StyledBackGround>
       </StyledSecondBlock>
     </>
   )
@@ -28,5 +36,4 @@ const SimpleArticle = () => {
 }
 
 
-export { SimpleArticle }
-export { SecondArticle }
+export { SimpleArticle, SecondArticle }
