@@ -1,12 +1,14 @@
 import React from "react";
-import { BlockOne } from "./component/block-one/block-one.component";
-import { BlockTwo } from "./component/block-two/block-two.component";
+import { BlockBlogs } from "./component/block-blogs";
+import { SimpleArticle } from "./component/simple-article";
+
+
 
 const MihaelaChetran = () => {
     return (
         <>
-            <BlockOne/>
-            <BlockTwo/>
+            <SimpleArticle/>
+            <BlockBlogs/>
         </>
     )
 }

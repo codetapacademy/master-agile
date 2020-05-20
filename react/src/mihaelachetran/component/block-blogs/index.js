@@ -1,0 +1,1 @@
+export { BlockBlogs } from "./block-blogs.component"
