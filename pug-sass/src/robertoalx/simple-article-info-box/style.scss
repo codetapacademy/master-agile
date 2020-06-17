@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap';
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+.board-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: fit-content(50px) 15px 15px;
+  grid-gap: 10px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+  padding: 25px;
+}
+
+.h-title {
+  grid-column: 1/-1;
+  line-height: 30px;
+  font-size: 16px;
+  color: #808080;
+  margin: 0;
+}
+
+.full-name,
+.posting-date {
+  grid-column: 2/3;
+  font-size: 13px;
+  margin: 0;
+}
+
+.full-name {
+  color: #808080;
+}
+
+.posting-date {
+  color: #b3b3b3;
+}
+
+.icon-bookmark{
+  grid-column: 3/4;
+  grid-row: 2/4;
+  align-self: center;
+}
+
+.board:nth-child(2) {
+  background-image: url(/asset/image/robertoalx/nice-image.png);
+  background-size: cover;
+  background-position: center;
+  
+  .h-title {
+    color: white;
+  }
+
+  .full-name {
+    color: white;
+  }
+
+  .posting-date {
+    color: white;
+    opacity: .6
+  }
+
+  .icon-bookmark {
+    opacity: .3;
+  }
+}
