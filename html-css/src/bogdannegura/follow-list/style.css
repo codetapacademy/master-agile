@@ -1,0 +1,165 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.follow-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.blog-selected {
+  display: grid;
+  grid-template-columns: 40px 1fr 30px;
+  grid-template-rows: 30px 30px 20px 20px;
+  grid-gap: 10px;
+  background-image: url(../blog-blocks/asset/Image2.png);
+  height: 150px;
+  width: 560px;
+  padding: 20px;
+  margin-bottom: 1px;
+  margin: 10px 0;
+}
+
+.blog-avatar2 {
+  background-image: url(../blog-blocks/asset/Avatar2.png);
+  width: 40px;
+  height: 40px;
+}
+
+.blog-icon {
+  background-image: url(../blog-blocks/asset/ic_bookmark.png);
+  grid-column: 3/4;
+  grid-row: 3/5;
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+.blog-selected,
+.blog-avatar2,
+.blog-icon {
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-title {
+  margin: 0;
+  font-size: 16px;
+  grid-column: 1/-1;
+  align-self: end;
+  padding-bottom: 1px;
+}
+
+.blog-subtitle {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  font-size: 14px;
+  margin: 0;
+}
+
+.blog-subtitle {
+  opacity: 0.3;
+}
+
+.blog-name {
+  font-size: 13px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.blog-date {
+  font-size: 12px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.blog-subtitle,
+.blog-date {
+  opacity: 0.6;
+}
+
+.blog-title,
+.blog-subtitle,
+.blog-name,
+.blog-date {
+  color: white;
+}
+
+.user-one,
+.user-two,
+.user-three {
+  display: grid;
+  grid-template-columns: 60px 1fr 120px;
+  grid-template-rows: repeat(4, 30px);
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 2px 2px #f0f0f0;
+  margin-bottom: 20px;
+  width: 540px;
+  height: 120px;
+}
+
+.follow-me__user-one {
+  background-image: url(./asset/user-one.png);
+}
+
+.follow-me__user-two {
+  background-image: url(./asset/user-two.png);
+}
+
+.follow-me__user-three {
+  background-image: url(./asset/user-three.png);
+}
+
+.follow-me__user-one,
+.follow-me__user-two,
+.follow-me__user-three {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  height: 60px;
+  width: 60px;
+}
+
+.follow-me__name {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #808080;
+}
+
+.follow-me__activity {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  color: #b3b3b3;
+}
+
+.follow-me__name,
+.follow-me__activity {
+  margin-left: 30px;
+}
+
+.follow-me__activity > span {
+  color: #808080;
+}
+
+.follow-me__button {
+  height: 40px;
+  width: 90px;
+  grid-column: 3/4;
+  grid-row: 2/4;
+  line-height: 40px;
+  text-align: center;
+  padding-bottom: 20px 40px;
+  border-radius: 40px;
+  border: 2px solid #f0f0f0;
+  color: #999999;
+}
