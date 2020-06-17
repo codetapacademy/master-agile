@@ -1,0 +1,38 @@
+-
+    var userAvatar = "../../../asset/bogdan-negura/follow-list/user-one.png"
+    var userList = {
+        "userOne":{
+            name: "Phoebe Bridges",
+            followers: "124",
+            following: "45"
+        },
+        "userTwo":{
+            name: "Kathryn Moss",
+            followers: "98",
+            following: "43"
+        },
+        "userThree":{
+            name:"Lewis Pena",
+            followers: "98",
+            following: "34"
+        }
+    }
+ 
+
+.follow-list
+    .user-one
+        .user-avatar__one
+        .user-name=userList.userOne.name
+        .user-activity #[strong 124] Followers #[strong 45] Following
+        .user-button Follow
+            
+    .user-two
+        .user-avatar__two
+        .user-name=userList.userTwo.name
+        .user-activity #[strong 98 ] Followers #[strong 34] Following
+        .user-button Follow
+    .user-three
+        .user-avatar__three
+        .user-name=userList.userThree.name
+        .user-activity #[strong 98] Followers #[strong 34] Following
+        .user-button Follow

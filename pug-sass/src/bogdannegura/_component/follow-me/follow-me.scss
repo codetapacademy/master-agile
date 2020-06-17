@@ -1,0 +1,61 @@
+.user-one,
+.user-two,
+.user-three {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 8px 5px rgba(0, 0, 0, 0.22);
+  width: 540px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 60px 1fr 120px;
+  grid-template-rows: repeat(4, 30px);
+}
+
+.user-avatar__one {
+  background-image: url(/asset/image/bogdan-negura/follow-list/user-one.png);
+}
+.user-avatar__two {
+  background-image: url(/asset/image/bogdan-negura/follow-list/user-two.png);
+}
+.user-avatar__three {
+  background-image: url(/asset/image/bogdan-negura/follow-list/user-three.png);
+}
+
+.user-avatar__one,
+.user-avatar__two,
+.user-avatar__three {
+  width: 60px;
+  height: 60px;
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.user-activity {
+  line-height: 30px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  color: #b3b3b3;
+  margin-left: 30px;
+}
+
+.user-name {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  line-height: 30px;
+  color: #808080;
+  margin-left: 30px;
+}
+
+.user-button {
+  grid-column: 3/4;
+  grid-row: 2/4;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid #f0f0f0;
+  border-radius: 30px;
+  color: #999999;
+  width: 90px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+}
